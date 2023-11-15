@@ -1,0 +1,73 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+.main_navbar{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+   
+   
+}
+.logo_color{
+    color:rgb(206, 178, 22);
+}
+
+.site_logo{
+    margin-left: 60px;
+    font-size: 20px ;
+    color: aliceblue;
+}
+.menu a{
+     text-decoration: none;
+     color: aliceblue;
+     &:hover{
+        color: rgb(206, 178, 22);
+     }
+}
+.reserve i{
+    color: aliceblue;
+}
+.reserve p{
+    color: aliceblue;
+}
+.reserve_color{
+    color:rgb(206, 178, 22);
+    font-size: 18px;
+}
+.reserve{
+    margin-right: 30px;
+}
+
+
+
+.header{
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url(https://preview.colorlib.com/theme/pulse/img/slider/slider-1.jpg.webp);
+}
+.food_color{
+    color:rgb(206, 178, 22) ;
+    font-size: 30px;
+}
+.header_title h1{
+    font-size: 90px;
+    color: aliceblue;
+    margin-top: 80px;
+}
+.header_title p{
+    margin-left: 600px;
+    color: aliceblue;
+    font-size: 18px;
+    
+}
